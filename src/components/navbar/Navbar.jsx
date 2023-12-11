@@ -10,7 +10,7 @@ const [toggle, setToggle] = useState(false)
 
 
   return (
-    <div style={{boxShadow: '0 5px 0px 0 grey'}}>
+    <div style={{boxShadow: '0 2px 0px 0 grey'}}>
       <nav className='navbar'>
 
          <h1 style={{color: 'lightgrey', cursor: 'pointer'}}>Ytoyin<span className='media'>Media</span></h1>
