@@ -32,7 +32,7 @@ const [toggle, setToggle] = useState(false)
          
          
          <ul>
-           <li><a onClick={()=> setToggle(false)}  className='media' href="#">Home</a></li>
+           <li><a onClick={()=> setToggle(false)}  style={{color:'#cf23cf'}} href="#">Home</a></li>
            <li><a onClick={()=> setToggle(false)}  href="#About">About</a></li>
            <li><a onClick={()=> setToggle(false)} href="#Service">Projects</a></li>
            <li><a onClick={()=> setToggle(false)} href="#project">Contact</a></li>
@@ -41,6 +41,7 @@ const [toggle, setToggle] = useState(false)
          
        </nav>
     </div>
+    
   )
 }
 
