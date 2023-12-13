@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 
 const About = () => {
   return (
-    <div>
+    <div id='about'>
         <h1 className='about-text'>About</h1>
         <div className="about-grid">
 
@@ -41,7 +41,7 @@ const About = () => {
             </div>
       </div>
              <Marquee style={{marginTop: '30px', fontSize: '22px', fontWeight: 'bold', width: '90%', marginLeft: 'auto', marginRight: 'auto'}}> 
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, nobis voluptatem ullam sint minima enim iste illum aspernatur debitis soluta maiores sit doloremque velit beatae reprehenderit doloribus nesciunt dolorem error.     
+                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, officiis ratione, distinctio deserunt facere soluta velit eligendi amet omnis, itaque impedit molestiae eos natus sit minus libero est fugit at quam! Magni dignissimos asperiores eum quia culpa ut consequatur ullam sed nemo saepe, hic perferendis rem est reprehenderit adipisci quod deserunt fuga earum dolor laboriosam odio. Beatae qui nobis quia!  
             </Marquee>
 
 

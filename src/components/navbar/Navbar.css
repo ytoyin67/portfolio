@@ -143,7 +143,7 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    padding-top: 55px;
+    padding-top: 90px;
     
 
     
@@ -198,6 +198,7 @@
   line-height: 2.5;
   
 }
+
 }
 
 @media(max-width: 600px){
@@ -215,6 +216,11 @@
   font-size: 24px;
   line-height: 2.1;
   
+}
+
+
+.nav-mobile{
+  padding-top: 70px;
 }
   
 }
