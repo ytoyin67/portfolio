@@ -198,6 +198,13 @@ p{
   margin-right: auto;
 }
 
+
+.my-picture{
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+}
+
   
 .hero-grid{
   

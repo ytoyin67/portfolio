@@ -25,12 +25,12 @@ const [toggle, setToggle] = useState(false)
 
          <button className='resume' style={{}}>Resume</button>
 
-         <button className='btn-mobile'>{!toggle ? <FaBars  style={{fontSize: '18px'}} onClick={()=> setToggle(true)}/> :<FaTimes style={{color: 'red',fontSize: '18px'}} onClick={()=> setToggle(false)}/>}</button>
+         {!toggle && <FaBars className='btn-mobile'  style={{fontSize: '28px', cursor: 'pointer'}} onClick={()=> setToggle(true)}/> }
       </nav>
        
        <nav className={toggle ? 'nav-mobile show' : 'nav-mobile' }>
          
-         
+         <FaTimes onClick={()=> setToggle(!toggle)} style={{position: 'relative', top: '-24px', left: '145px', fontSize: '28px', cursor: 'pointer'}}/>
          <ul>
            <li><a onClick={()=> setToggle(false)}  style={{color:'rgb(209, 86, 209)'}} href="#">Home</a></li>
            <li><a onClick={()=> setToggle(false)}  href="#About">About</a></li>
