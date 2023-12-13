@@ -1,0 +1,207 @@
+
+.my-picture{
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+}
+.picture{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 25px;
+}
+
+h1,h2,h5,h6{
+  margin: 20px 0;
+}
+p{
+  margin: 18px;
+}
+
+.hero-grid{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-gap: 30px;
+ justify-content: center;
+ align-items: center;
+ width: 85%;
+ margin: 0 auto;
+ padding: 140px 0;
+}
+
+.left{
+  padding-left: 20px;
+}
+
+.left h1{
+  font-size: 2.9rem;
+}
+
+.left p{
+  font-size: 16px;
+  margin-left: 0;
+}
+
+.left span{
+  
+  font-family: Arial, Helvetica, sans-serif; 
+
+  background: linear-gradient(to right, rgb(209, 86, 209) 30%, 
+           #ede282); 
+     -webkit-text-fill-color: transparent; 
+      -webkit-background-clip: text;
+}
+
+.left h5{
+  font-size: 20px;
+}
+
+.left button{
+  background-color: rgb(40, 38, 38);
+  border:2px solid rgb(209, 86, 209); 
+  color: white; 
+  padding: 14px 22px;
+  margin: 10px 0;
+  transition: all .3s ease-in-out;
+}
+
+.left button:hover{
+  background-color: rgb(209, 86, 209,.9);
+  border:2px solid rgb(40, 38, 38,.8); 
+  
+}
+
+
+
+
+
+
+
+
+
+/* Mobile and Ipad */
+@media(max-width: 1100px){
+  
+.left h1{
+  font-size: 2.5rem;
+}
+
+.my-picture{
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+}
+  
+}
+
+
+
+
+
+
+
+@media(max-width: 1000px){
+  
+.hero-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  padding: 95px 0;
+ }
+
+ .picture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-picture{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.left{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+ 
+}
+
+.left p, .left h1, .left h5{
+   text-align: center;
+}
+
+.left button{
+  margin-left: 40%;
+
+}
+ 
+}
+
+
+
+
+@media(max-width: 800px){
+   
+.left button{
+  margin-left: 35%;
+
+}
+
+
+.picture{
+  
+ 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  
+.hero-grid{
+  
+  padding: 75px 0;
+ }
+ 
+.left{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+
+
+}
+
+
+
+@media(max-width: 600px){
+  
+.left button{
+  margin-left: 33%;
+
+}
+
+
+
+.picture{
+  
+ padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  
+.hero-grid{
+  
+  padding: 65px 0;
+ }
+
+}

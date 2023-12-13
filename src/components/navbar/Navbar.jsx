@@ -16,7 +16,7 @@ const [toggle, setToggle] = useState(false)
          <h1 style={{color: 'lightgrey', cursor: 'pointer'}}>Ytoyin<span className='media'>Media</span></h1>
 
          <ul className='nav-flex'>
-           <li><a style={{color:'#cf23cf'}} href="#">Home</a></li>
+           <li><a style={{color:'rgb(209, 86, 209)'}} href="#">Home</a></li>
            <li><a href="#About">About</a></li>
            <li><a href="#Service">Projects</a></li>
            <li><a href="#Project">Contact</a></li>
@@ -32,7 +32,7 @@ const [toggle, setToggle] = useState(false)
          
          
          <ul>
-           <li><a onClick={()=> setToggle(false)}  style={{color:'#cf23cf'}} href="#">Home</a></li>
+           <li><a onClick={()=> setToggle(false)}  style={{color:'rgb(209, 86, 209)'}} href="#">Home</a></li>
            <li><a onClick={()=> setToggle(false)}  href="#About">About</a></li>
            <li><a onClick={()=> setToggle(false)} href="#Service">Projects</a></li>
            <li><a onClick={()=> setToggle(false)} href="#project">Contact</a></li>
