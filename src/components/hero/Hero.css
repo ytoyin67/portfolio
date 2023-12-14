@@ -4,6 +4,8 @@
   height: 480px;
   border-radius: 50%;
 }
+
+
 .picture{
   display: flex;
   justify-content: flex-end;
@@ -11,12 +13,16 @@
   padding-right: 25px;
 }
 
+
 h1,h2,h5,h6{
   margin: 20px 0;
 }
+
+
 p{
   margin: 18px;
 }
+
 
 .hero-grid{
  display: grid;
@@ -26,21 +32,25 @@ p{
  align-items: center;
  width: 85%;
  margin: 0 auto;
- padding: 140px 0;
+ padding: 100px 0;
 }
+
 
 .left{
   padding-left: 20px;
 }
 
+
 .left h1{
   font-size: 2.9rem;
 }
+
 
 .left p{
   font-size: 16px;
   margin-left: 0;
 }
+
 
 .left span{
   
@@ -52,9 +62,11 @@ p{
       -webkit-background-clip: text;
 }
 
+
 .left h5{
   font-size: 20px;
 }
+
 
 .left button{
   background-color: rgb(40, 38, 38);
@@ -64,6 +76,7 @@ p{
   margin: 10px 0;
   transition: all .3s ease-in-out;
 }
+
 
 .left button:hover{
   background-color: rgb(209, 86, 209,.9);

@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
 import './About.css';
 import picture from '../../assets/images/picture1.jpg';
 import Marquee from "react-fast-marquee";
 
 const About = () => {
+   
+   
+
   return (
-    <div data-aos="fade-left" id='about'>
+    <div  id='about'>
         <h1 className='about-text'>About</h1>
         <div className="about-grid">
 

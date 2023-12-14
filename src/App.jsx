@@ -17,7 +17,7 @@ function App() {
  
   useEffect(() => {
     AOS.init({
-      // disable: "phone",
+      disable: "phone",
       duration: 700,
       easing: "ease-out-cubic",
     });
