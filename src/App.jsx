@@ -8,16 +8,20 @@ import Project from './components/projects/Project';
 import Review from './components/reviews/Review';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
 function App() {
  
-  // useEffect(() => {
-  //   AOS.init();
-  // }, [])
+  useEffect(() => {
+    AOS.init({
+      // disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
 
   const [isLoading, setIsLoading] = useState(true)
 
@@ -33,7 +37,7 @@ if(isLoading){
   return (
     <>
       <Navbar />
-      <Hero />
+      <Hero  />
       <About />
       <Service />
       <Project />

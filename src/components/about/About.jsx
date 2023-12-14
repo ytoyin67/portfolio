@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 
 const About = () => {
   return (
-    <div id='about'>
+    <div data-aos="fade-left" id='about'>
         <h1 className='about-text'>About</h1>
         <div className="about-grid">
 
