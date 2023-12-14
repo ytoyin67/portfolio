@@ -9,7 +9,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
-    <div   style={{backgroundColor: 'rgba(25, 23, 23, 0.8)', overflowX: 'hidden'}}>
+    <div  style={{backgroundColor: 'rgba(25, 23, 23, 0.8)', overflowX: 'hidden'}}>
       <div className="hero-grid">
          <div className="left">
 
