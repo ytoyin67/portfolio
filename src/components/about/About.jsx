@@ -43,7 +43,7 @@ const About = () => {
                 </div>
             </div>
       </div>
-             <Marquee style={{marginTop: '30px', fontSize: '22px', fontWeight: 'bold', width: '90%', marginLeft: 'auto', marginRight: 'auto'}}> 
+             <Marquee style={{marginTop: '40px', fontSize: '22px', fontWeight: 'bold', width: '90%', marginLeft: 'auto', marginRight: 'auto', marginBottom: '40px'}}> 
                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, officiis ratione, distinctio deserunt facere soluta velit eligendi amet omnis, itaque impedit molestiae eos natus sit minus libero est fugit at quam! Magni dignissimos asperiores eum quia culpa ut consequatur ullam sed nemo saepe, hic perferendis rem est reprehenderit adipisci quod deserunt fuga earum dolor laboriosam odio. Beatae qui nobis quia!  
             </Marquee>
 
