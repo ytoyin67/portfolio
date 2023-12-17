@@ -55,7 +55,7 @@
 }
 
 .service-grid h2{
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
 .web-dev{
@@ -90,6 +90,30 @@
 
 
 .server-side:hover{
+  transform: translateY(-10px);
+  background-color: rgb(40, 38, 38,.7);
+ }
+
+.responsive-web{
+  border: 1px solid  lightgrey;
+  padding: 30px; 
+  transition: all  .5s ease-in-out;
+}
+
+
+.responsive-web:hover{
+  transform: translateY(-10px);
+  background-color: rgb(40, 38, 38,.7);
+ }
+
+.frontend{
+  border: 1px solid  lightgrey;
+  padding: 30px; 
+  transition: all  .5s ease-in-out;
+}
+
+
+.frontend:hover{
   transform: translateY(-10px);
   background-color: rgb(40, 38, 38,.7);
  }

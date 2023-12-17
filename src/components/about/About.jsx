@@ -1,14 +1,27 @@
 import React from 'react';
 import './About.css';
-import picture from '../../assets/images/picture1.jpg';
 import Marquee from "react-fast-marquee";
+import picture from '../../assets/images/picture1.jpg';
+import css from '../../assets/images/css.png'
+import bootstrap from '../../assets/images/bootstrap-logo.png'
+import express from '../../assets/images/express.png'
+import git from '../../assets/images/git.png'
+import github from '../../assets/images/github.png'
+import html from '../../assets/images/html.png'
+import js from '../../assets/images/js.png'
+import react from '../../assets/images/react.png'
+import tailwind from '../../assets/images/tailwind.png'
+import vue from '../../assets/images/vue.png'
+import mongodb from '../../assets/images/mongodb.png'
+import node from '../../assets/images/nodejs.png'
+
 
 const About = () => {
    
    
 
   return (
-    <div  id='about'>
+    <div  id='about' >
         <h1 className='about-text'>About</h1>
         <div className="about-grid">
 
@@ -43,8 +56,19 @@ const About = () => {
                 </div>
             </div>
       </div>
-             <Marquee style={{marginTop: '40px', fontSize: '22px', fontWeight: 'bold', width: '90%', marginLeft: 'auto', marginRight: 'auto', marginBottom: '40px'}}> 
-                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, officiis ratione, distinctio deserunt facere soluta velit eligendi amet omnis, itaque impedit molestiae eos natus sit minus libero est fugit at quam! Magni dignissimos asperiores eum quia culpa ut consequatur ullam sed nemo saepe, hic perferendis rem est reprehenderit adipisci quod deserunt fuga earum dolor laboriosam odio. Beatae qui nobis quia!  
+             <Marquee style={{marginTop: '100px', fontSize: '22px', fontWeight: 'bold', width: '85%', marginLeft: 'auto', marginRight: 'auto', marginBottom: '60px'}}> 
+             <img className='stack-logo' src={css} alt="" />   
+             <img className='stack-logo' src={bootstrap} alt="" />   
+             <img className='stack-logo' src={express} alt="" />   
+             <img className='stack-logo' src={git} alt="" />   
+             <img className='stack-logo' src={github} alt="" />   
+             <img className='stack-logo' src={html} alt="" />   
+             <img className='stack-logo' src={js} alt="" />   
+             <img className='stack-logo' src={mongodb} alt="" />   
+             <img className='stack-logo' src={node} alt="" />   
+             <img className='stack-logo' src={react} alt="" />   
+             <img className='stack-logo' src={tailwind} alt="" />   
+             <img className='stack-logo' src={vue} alt="" />   
             </Marquee>
 
 
